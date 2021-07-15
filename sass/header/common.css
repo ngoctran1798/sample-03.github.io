@@ -1,0 +1,47 @@
+.box-header .header-top {
+  padding: 3px 0;
+  background-color: #333;
+}
+
+.box-header .header-top .header {
+  display: block;
+  position: relative;
+}
+
+.box-header .header-top .header .header-top-left {
+  margin-left: 79px;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+.box-header .header-top .header .header-top-left .select-box {
+  color: #696969;
+  background: #333;
+  border: none;
+  font-size: 12px;
+}
+
+.box-header .header-top .header-top-right {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 60px;
+}
+
+.box-header .header-top .header-top-right .list {
+  list-style: none;
+  display: block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.box-header .header-top .header-top-right .list li {
+  display: inline-block;
+}
+
+.box-header .header-top .header-top-right .list .list-menu {
+  padding: 0px 35.5px;
+  position: relative;
+}
+/*# sourceMappingURL=common.css.map */

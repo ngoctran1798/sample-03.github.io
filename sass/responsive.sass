@@ -1,0 +1,31 @@
+$res_992: "only screen and (min-width: 992px) and (max-width: 1024px)"
+$res_768: "only screen and (min-width: 768px) and (max-width: 991px)"
+$res_377: "only screen and (min-width: 377px) and (max-width: 426px)"
+$res_320: "only screen and (min-width: 320px) and (max-width: 767px)"
+$res_322: "only screen and (min-width: 322px) and (max-width: 376px)"
+$res_321: "only screen and (max-width: 321px)"
+
+@mixin responsive_992()
+  @media #{$res_992}
+    @content
+
+@mixin responsive_768()
+  @media #{$res_768}
+    @content
+
+@mixin responsive_377()
+  @media #{$res_377}
+    @content
+
+@mixin responsive_320()
+  @media #{$res_320}
+    @content
+
+@mixin responsive_322()
+  @media #{$res_322}
+    @content
+
+@mixin responsive_321()
+  @media #{$res_321}
+    @content
+

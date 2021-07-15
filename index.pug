@@ -1,0 +1,288 @@
+doctype html
+html(lang="zxx")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Sample 03
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <link rel="stylesheet" href="css/webslidemenu-effect.css"/>
+    <link rel="stylesheet" href="css/webslidemenu.css"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+  body 
+    header
+      .box-header
+        .wsmobileheader.clearfix
+            a#wsnavtoggle.wsanimated-arrow
+              span
+            .block-logo
+              img.img-fluid(src='./images/logo.png' alt='logo')
+        .header-top
+          .container
+            .header
+              .header-top-left
+                select.select-box
+                  option(value='0') Currency : GBP
+                  option(value='1') Currency : USD
+                  option(value='2') Currency : VNd
+              .header-top-right
+                ul.list
+                  li.list-menu
+                    a.link(href='#') Register
+                  li.list-menu
+                    a.link(href='#') Sign in
+                  li.list-cart
+                    a.addtocart(href='#')
+                      p.pretext
+                        i.fas.fa-cart-plus
+                        |  empty
+                        i.fas.fa-chevron-down
+                      p.pretext.done
+                        span.posttext
+                          i.fas.fa-check
+                          |  added
+
+        .header-bottom
+          h1.header-logo
+            a.link(href='#')
+              img.img-fluid.image(src='./images/logo.png' alt='logo')
+          .block-header-menumain
+            .wsmainwp.clearfix
+              nav.wsmenu.clearfix
+                ul.wsmenu-list
+                  li(aria-haspopup='true')
+                    a(href='#')
+                      | MENS
+                      i.fas.fa-angle-down.list-icon
+                    ul.sub-menu
+                      li(aria-haspopup='true')
+                        a(href='#') Website Design 
+                      li(aria-haspopup='true')
+                        a(href='#') Ecommerce Solutions
+                      li(aria-haspopup='true')
+                        a(href='#') Application Development
+                      li(aria-haspopup='true')
+                        a(href='#') Website Development
+                      li(aria-haspopup='true')
+                        a(href='#') Open Source Development
+
+                  li(aria-haspopup='true')
+                    a(href='#')
+                      | WOMENS
+                      i.fas.fa-angle-down
+                    ul.sub-menu
+                      li(aria-haspopup='true')
+                        a(href='#') Website Design 
+                      li(aria-haspopup='true')
+                        a(href='#') Ecommerce Solutions
+                      li(aria-haspopup='true')
+                        a(href='#') Application Development
+                      li(aria-haspopup='true')
+                        a(href='#') Website Development
+                      li(aria-haspopup='true')
+                        a(href='#') Open Source Development
+
+                  li
+                    a.active(href='#') THE BRAND
+
+                  li
+                    a(href='#') LOCAL STORES
+
+                  li(aria-haspopup='true')
+                    a(href='#')
+                      | LOOK BOOK
+                      i.fas.fa-angle-down
+                    ul.sub-menu
+                      li(aria-haspopup='true')
+                        a(href='#') Website Design 
+                      li(aria-haspopup='true')
+                        a(href='#') Ecommerce Solutions
+                      li(aria-haspopup='true')
+                        a(href='#') Application Development
+                      li(aria-haspopup='true')
+                        a(href='#') Website Development
+                      li(aria-haspopup='true')
+                        a(href='#') Open Source Development
+
+                  li
+                    nav.navbar.navbar-light
+                      form.form-inline.search
+                        input.form-control.form-search(type='search' placeholder='Search' aria-label='Search')
+                        button.button-submit(type='submit')
+                          <i class="fas fa-search"></i>
+
+    main
+      section.section-breadcrum
+        .container
+          h2.breadcrum-header THE 
+            span BRAND
+          h3.breadcrum-content COMPANY SLOGAN GOES HERE
+
+      section.section-blog
+        .container
+          .row.blog
+            .col-sm-12.col-md-6.block-blog
+              .blog-item
+                .item-image
+                  a(href='#')
+                    img.image.img-fluid(src='./images/item-01.png' alt='Blog_01')
+
+                .item-image
+                  a(href='#')
+                    img.image.img-fluid(src='./images/item-03.png' alt='Blog_03')
+
+                .item-content
+                  .content-post-meta
+                    h2.title our values, vision and strategy
+                    h3.content The above image would be a great place for an advertising video       
+                  p.text
+                    | Cras maximus venenatis malesuada. Nulla sagittis elit felis, ac facilisis quam ornare aliquam. Etiam cursus odio vitae dui dignissim, sed tempus lacus tincidunt et donec sapien velit, rhoncus eu nulla a, molestie tempus mi maecenas sagittis ornare.Pellentesque sapien mi,
+                    span tincidunt nec magna vitae
+                    | , volutpat elementum odioni lorem Aliquam tempor massa vitae augue mattis tempor id in ante ut augue erat, luctus eil.
+
+
+            .col-sm-12.col-md-6.block-blog
+              .blog-item.right
+                .blog-item 
+                  .item-content
+                    .content-post-meta
+                      h2.title hand designed clothing
+                      h3.content established in 2013, avenue fashion Sed dictum elit vel sapien luctus eras       
+                    p.text Praesent feugiat malesuada tristique maecenas rhoncus diam eget quam vestibulim consectetur, id condimentum leo porttitor. Cum sociis natoque penatibus eta magnis disut parturient montes, nascetur ridiculus mus. Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.
+
+                  .item-image
+                    a(href='#')
+                      img.image.img-fluid(src='./images/item-02.png' alt='Blog_02')
+
+                  .item-content
+                    .content-post-meta
+                      h2.title Ethical trading
+                      h3.content we oversee the working conditions of the people in the supply chain      
+                    p.text Nullam dapibus consectetur neque, faucibus porttitor purus iaculis sed. Aenean eras dapibus augue, eget dignissim dui maecenas et rhoncus mim, vel semper arcu lorem Pellentesque congue justo esteir pellentesque aliquet massa eget posuere tincidunt. Cras viverra ullamcorper nunc accumsan hendrerit. 
+                      a.link(href='#') A link
+                        i.fas.fa-arrow-right
+                  .item-image
+                    ul.list
+                      li.menu-list
+                        a.link(href='#')
+                          img.image.img-fluid(src='./images/item-04.png' alt='Blog_04')
+                      li.menu-list
+                        a.link(href='#')
+                          img.image.img-fluid(src='./images/item-05.png' alt='Blog_05')
+                      li.menu-list
+                        a.link(href='#')
+                          img.image.img-fluid(src='./images/item-06.png' alt='Blog_06')
+
+    footer
+      .box-footer
+        .footer-contact
+          .container
+            .row.contact
+              .col-sm-12.col-md-4.col-lg-2.block-contact
+                .contact-item
+                  h2.title Information
+                  ul.list
+                    li.menu-list
+                      a.link(href='#')
+                        span The brand
+                    li.menu-list
+                      a.link(href='#') Local stores
+                    li.menu-list
+                      a.link(href='#') Customer service
+                    li.menu-list
+                      a.link(href='#') Privacy & cookies
+                    li.menu-list
+                      a.link(href='#') Site map
+
+              .col-sm-12.col-md-4.col-lg-2.block-contact
+                .contact-item
+                  h2.title Why buy from us
+                  ul.list
+                    li.menu-list
+                      a.link(href='#') Shipping & returns
+                    li.menu-list
+                      a.link(href='#') Secure shopping
+                    li.menu-list
+                      a.link(href='#') Testimonials
+                    li.menu-list
+                      a.link(href='#')
+                        span Award winning
+                    li.menu-list
+                      a.link(href='#')
+                        span Ethical trading
+
+              .col-sm-12.col-md-4.col-lg-3.block-contact
+                .contact-item
+                  h2.title Your account
+                  ul.list
+                    li.menu-list
+                      a.link(href='#') Sign in
+                    li.menu-list
+                      a.link(href='#') Register
+                    li.menu-list
+                      a.link(href='#') View cart
+                    li.menu-list
+                      a.link(href='#') View your lookbook
+                    li.menu-list
+                      a.link(href='#') Track an order
+                    li.menu-list
+                      a.link(href='#') Update information
+
+              .col-sm-12.col-md-4.col-lg-2.block-contact
+                .contact-item
+                  h2.title Lookbook
+                  ul.list
+                    li.menu-list
+                      a.link(href='#') Latest posts
+                    li.menu-list
+                      a.link(href='#') Men’s lookbook
+                    li.menu-list
+                      a.link(href='#') Women’s lookbook
+                    li.menu-list
+                      a.link(href='#') Lookbooks RSS feed
+                    li.menu-list
+                      a.link(href='#') View your lookbook
+                    li.menu-list
+                      a.link(href='#') Delete your lookbook
+
+              .col-sm-12.col-md-4.col-lg-3.block-contact
+                .contact-item
+                  h2.title contact details
+                  ul.list
+                    li.menu-list
+                      a.link(href='#') Head Office: Avenue Fashion, 180-182 Regent Street, London.
+                    li.menu-list
+                      a.link(href='#') Telephone: 0123-456-789 
+                    li.menu-list
+                      a.link(href='#') Email: support@yourwebsite.com
+
+        .footer-banner
+          .container
+            ul.list
+              li.menu-list
+                a.link(href='#')
+                  img.image.img-(src='./images/award.png' alt='award')
+              li.menu-list
+                a.link(href='#')
+                  img.image.img-(src='./images/social.png' alt='social')
+
+        .footer-copyright
+          .container
+            .row.copyright
+              .col-sm-12.col-md-6.block-copyright
+                .copyright-item
+                  p.text © 2016 Avenue Fashion™
+              .col-sm-12.col-md-6.block-copyright
+                .copyright-item
+                  ul.list
+                    li.menu-list Design by RobbyDesigns.com 
+                    li.menu-list Dev by Loremipsum.com
+
+
+    <script src="js/webslidemenu.js"></script>
+    <script src="js/site.js"></script>
